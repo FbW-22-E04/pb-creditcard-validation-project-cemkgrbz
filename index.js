@@ -79,7 +79,7 @@ function checkSumDigits(cardNum) {
 
 
 function checkDashesAndNumLenght(cardNum) {
-    if(cardNum.length === 16 ||(cardNum.charAt(4) === '-' && cardNum.charAt(9) === '-' && cardNum.charAt(14) === '-' && cardNum.length === 19)) {
+    if(cardNum.length === 16 ||(cardNum[4] === '-' && cardNum[9] === '-' && cardNum[14] === '-' && cardNum.length === 19)) {
         return true
     }
         return false
